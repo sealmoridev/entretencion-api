@@ -1,0 +1,37 @@
+{% extends "base-index.html" %}
+{% block content %}
+
+<div id="wrap-cartones" class="slide-content">
+    <div data-w-id="260aa8f8-99b0-b24b-ec2e-4e38c07b53b9" class="form-content"><img src="images/logo-cajalosandes.png" alt="Caja los andes logo" class="logo">
+      <div class="form-title-wrap">
+        <div class="form-section-title">Descargue sus cartones de bingo</div>
+        <p class="form-paragraph">Antes de continuar con Zoom le recomendamos descargar sus cartones de bingo.<br></p>
+      </div>
+      <div class="form-wrap extra-space">
+        <div class="checkbox-base">
+          <div class="wrap-icon"><img src="images/bingo64px.png" height="" alt="" class="icon"></div>
+          <div class="text-wrapper">
+            <div class="checkbox-text">Nº Cartón: {{ c1 }}</div>
+            <h4 class="checkbox-h4">Primer cartón de Bingo</h4>
+          </div>
+          <a id="download-carton1" href="https://cartones.entretencion.cl/{{ c1 }}.png" class="download-button w-button">Descargar</a>
+        </div>
+        <div class="checkbox-base">
+          <div class="wrap-icon"><img src="images/bingo64px.png" height="" alt="" class="icon"></div>
+          <div class="text-wrapper">
+            <div class="checkbox-text">Nº Cartón: {{ c2 }}</div>
+            <h4 class="checkbox-h4">Segundo cartón de Bingo</h4>
+          </div>
+          <a id="download-carton2" href="https://cartones.entretencion.cl/{{ c2 }}.png" class="download-button w-button">Descargar</a>
+        </div>
+      </div>
+      <div class="button-wrap">
+        <a href="/evento?rut={{ rut }}" class="slider-left w-inline-block"><img src="images/arrow.svg" alt="" class="arrow"></a>
+        <a href="{{ zoomurl}}" class="slider-right w-inline-block">
+          <div class="text-block-4">Entrar al evento en Zoom</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

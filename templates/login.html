@@ -1,0 +1,25 @@
+{% extends "base-index.html" %}
+{% block content %}
+
+<form data-name="Email Form"  action="/evento" id="loginForm" name="login" method="GET">
+    <div id="wrap-rut" class="slide-content">
+      
+      <div><img src="images/caja02mayo-2.png" loading="lazy" width="314" sizes="(max-width: 479px) 90vw, (max-width: 767px) 34vw, (max-width: 991px) 32vw, 7vw" alt="Tombolandes en Línea" srcset="images/caja02mayo-2-p-500.png 500w, images/caja02mayo-2-p-800.png 800w, images/caja02mayo-2.png 810w" class="image-5"></div>
+      <div class="form-content-index"><img src="images/logo-cajalosandes.png" width="180" alt="" class="logo">
+        <div class="form-title-wrap">
+          <p class="form-paragraph">Para acceder al evento<br></p>
+          <div class="form-section-title">Ingrese su Rut</div>
+        </div>
+        
+        <div class="form-wrap extra-space"><input type="text" class="text-field w-input" oninput="checkRut(this);" autofocus="true" maxlength="256" name="rut" data-name="rut" placeholder="Ej: 12345667-6" id="rutinput" required=""></div>
+        <div class="button-wrap">
+          <button type="submit" class="submit-button w-button" >Ingresar </button>
+      
+        </div>
+      
+      </div>
+    
+    </div>
+</form>
+
+{% endblock %}

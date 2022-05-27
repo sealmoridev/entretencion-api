@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/script.js"></script>
+    <title>Formulario</title>
+
+</head>
+<body>
+    
+    <form action="/test-rut" id="loginForm" name="login" method="GET">
+        <input type="text" id="rutinput" name="rut" oninput="checkRut(this);" placeholder="Ingrese RUT" required>
+        <button type="submit" >Ingresar </button>
+    </form>
+    <div id="err_div" style="display:none;" >Error: rut inválido</div>
+</body>
+</html>
