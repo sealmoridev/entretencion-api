@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="/assets/siseusa.css" rel="stylesheet">
+    <title>Consulta RUT</title>
+</head>
+<body>
+    <h2>Hola {{ data['NOMBRE COMPLETO'] }}</h2>
+    <p>Tu carton 1 es {{data['CARTON 1']}} <a href="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png"> descargar carton 1</a></p>
+    <p>Tu carton 2 es {{data['CARTON 2']}} <a href="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png"> descargar carton 2</a></p>
+    <p>Acceso directo a Streaming Vimeo <a target="_blank" href="https://entretencion.cl/vivo?rut={{ data['PEGAR RUT'] }}&c1={{ data['CARTON 1'] }}&c2={{ data['CARTON 2'] }}"> https://entretencion.cl/vivo?rut={{ data['PEGAR RUT'] }}&c1={{ data['CARTON 1'] }}&c2={{ data['CARTON 2'] }}</a></p>
+    <p>Acceso directo a cartones para entrar a Zoom <a target="_blank" href="https://entretencion.cl/cartones?rut={{ data['PEGAR RUT'] }}&c1={{ data['CARTON 1'] }}&c2={{ data['CARTON 2'] }}"> https://entretencion.cl/cartones?rut={{ data['PEGAR RUT'] }}&c1={{ data['CARTON 1'] }}&c2={{ data['CARTON 2'] }}</a></p>
+
+    
+
+</body>
+</html>

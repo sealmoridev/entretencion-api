@@ -3,7 +3,7 @@
 <html data-wf-page="628e830e4f98734eeb201664" data-wf-site="62852fa8c338fb5cb15af9bd">
 <head>
   <meta charset="utf-8">
-  <title>Entretencion.cl | Evento en línea</title>
+  <title>Entretencion.cl | Evento en Vivo</title>
   <meta content="Entretencion.cl | Evento en línea" property="og:title">
   <meta content="Entretencion.cl | Evento en línea" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -186,16 +186,19 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
       </a>
       <div class="banner-content">
         <div class="quote-wrap">
-          <p class="paragraph-welcome">Bienvenid@</p>
-          <h3 class="banner-h4-titulo">{{ data['NOMBRE COMPLETO'] }}</h3>
-          <p class="paragraph-intro">{{ data['PEGAR RUT'] }}</p>
+          <p class="paragraph-welcome">Bienvenid@ {{ rut }}</p>
+          <!-- <h3 class="banner-h4-titulo"> NOMBRE</h3> 
+          <p class="paragraph-intro">{{ rut }}</p>
           <div class="notice">
             <div class="text-block-5"><span class="text-span">Premios de hoy:</span> <br></div>
             <ul role="list" class="list">
               <li>3 Gift Card de $200.000 para 3 ganadores distintos en categoría Bingo</li>
-              <li>3 Gift Card de $80.000 para 3 ganadores distintos en categoría Bingito</li>
+              <li>3 Gift Card de $80.000 para 3 ganadores distintos en categoría Binguito</li>
               <li>Sorteo de 2 Entradas Platinum para el concierto de Ricardo Arjona</li>
             </ul>
+          </div> -->
+          <div class="div-chat">
+            <div class="html-embed w-embed w-iframe"><iframe src="{{ chatvimeo }}" width="100%" height="350px" frameborder="0"></iframe></div>
           </div>
         </div>
       </div>
@@ -219,12 +222,12 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
               <div class="div-carton">
 
                 
-                <div>Cartón Nº {{ data['CARTON 1'] }}</div> <!--  <img sizes="(max-width: 479px) 100vw, 96.5px" srcset="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png 500w, https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png 800w, https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png 1080w, https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png 1920w" src="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png" loading="lazy" id="carton1" alt="" class="image-carton">
+                <div><a id="download-carton1" href="https://cartones.entretencion.cl/{{ c1 }}.png" class="download-button w-button">Descargar Cartón Nº {{ c1 }}</a></div> <!--  <img sizes="(max-width: 479px) 100vw, 96.5px" srcset="https://cartones.entretencion.cl/{{ c1 }}.png 500w, https://cartones.entretencion.cl/{{ c1 }}.png 800w, https://cartones.entretencion.cl/{{ c1 }}.png 1080w, https://cartones.entretencion.cl/{{ c1 }}.png 1920w" src="https://cartones.entretencion.cl/{{ c1 }}.png" loading="lazy" id="carton1" alt="" class="image-carton">
                 -->
                 <!-- Div Carton 1 -->
                          
                           <div class="columnas col_carton">
-                              <img id="carton-virtual-1" src="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png" alt="Cartón 1" class="img_carton"> 
+                              <img id="carton-virtual-1" src="https://cartones.entretencion.cl/{{ c1 }}.png" alt="Cartón 1" class="img_carton"> 
                               <div class="controles">
                                   <div class="controles_fila">
                                       <button id="boton1" class="controles_nro" onClick="marcar_nro(this.id);"></button>
@@ -266,20 +269,20 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                       
                 <!-- Div Carton 1 -->
 
-                <a id="download-carton1" href="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png" class="download-button w-button">Descargar</a>
+                
               </div>
             </div>
             <div data-w-tab="Tab 2" class="tab-pane-tab-2 w-tab-pane w--tab-active">
               <div class="div-carton">
 
                 
-                <div>Cartón Nº {{ data['CARTON 2'] }}</div>  <!-- <img sizes="(max-width: 479px) 100vw, (max-width: 767px) 73vw, (max-width: 991px) 77vw, 48vw" srcset="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png 500w, https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png 800w, https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png 1080w, https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png 1920w" src="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png" loading="lazy" id="carton2" alt="" class="image-carton">
+                <div><a id="download-carton2" href="https://cartones.entretencion.cl/{{ c2 }}.png" class="download-button w-button">Descargar Cartón Nº {{ c2 }}</a></div>  <!-- <img sizes="(max-width: 479px) 100vw, (max-width: 767px) 73vw, (max-width: 991px) 77vw, 48vw" srcset="https://cartones.entretencion.cl/{{ c2 }}.png 500w, https://cartones.entretencion.cl/{{ c2 }}.png 800w, https://cartones.entretencion.cl/{{ c2 }}.png 1080w, https://cartones.entretencion.cl/{{ c2 }}.png 1920w" src="https://cartones.entretencion.cl/{{ c2 }}.png" loading="lazy" id="carton2" alt="" class="image-carton">
                 -->
                 <!-- Div Carton 2 -->
                 
                          
                           <div class="columnas col_carton">
-                              <img id="carton-virtual-2" src="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png" alt="Cartón 2" class="img_carton"> 
+                              <img id="carton-virtual-2" src="https://cartones.entretencion.cl/{{ c2 }}.png" alt="Cartón 2" class="img_carton"> 
                               <div class="controles">
                                   <div class="controles_fila">
                                       <button id="boton-1" class="controles_nro" onClick="marcar_nro(this.id);"></button>
@@ -325,7 +328,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                 <!-- Fin Div Carton 2 -->
 
 
-                <a id="download-carton2" href="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png" class="download-button w-button">Descargar</a>
+                
               </div>
             </div>
             <div data-w-tab="Tab 3" class="tab-pane-tab-3 w-tab-pane">
@@ -336,10 +339,10 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
           </div>
           <div class="tabs-menu w-tab-menu">
             <a data-w-tab="Tab 1" class="tab-link-tab-1 w-inline-block w-tab-link w--current"><img src="images/bingo24px.png" alt="" class="nav-icon">
-              <div>Carton 1</div>
+              <div>Carton {{ c1 }}</div>
             </a>
             <a data-w-tab="Tab 2" class="tab-link-tab-2 w-inline-block w-tab-link"><img src="images/bingo24px.png" alt="" class="nav-icon">
-              <div>Carton 2</div>
+              <div>Carton {{ c2 }}</div>
             </a>
             <a data-w-tab="Tab 3" class="tab-link-tab-3 w-inline-block w-tab-link"><img src="images/chat32px.png" alt="" class="nav-icon">
               <div>Chat </div>

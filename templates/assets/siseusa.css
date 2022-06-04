@@ -368,20 +368,20 @@
 
 .controles {
     position: absolute;
-    top:116px;
+    top:112px;
     margin-right: 4px;
 }
 .controles_fila {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 347px;
-    margin-bottom:10px;
+    width: 314px;
+    margin-bottom:11px;
 }
 .controles_nro {
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 46px;
+    height: 46px;
     border-radius: 30px;
     display: inline-block;
     background-color: transparent;
@@ -509,10 +509,10 @@
 .img_carton {
     width: 100%;
     position: relative;
-    min-height: 532px;
-    min-width: 946px;
-    max-height: 532px;
-    max-width: 946px;
+    min-height: 506px;
+    min-width: 870px;
+    max-height: 506px;
+    max-width: 870px;
     justify-content: center;
     align-items: center;
 

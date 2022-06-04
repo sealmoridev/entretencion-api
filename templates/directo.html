@@ -1,0 +1,362 @@
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu May 26 2022 17:10:01 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="628e830e4f98734eeb201664" data-wf-site="62852fa8c338fb5cb15af9bd">
+<head>
+  <meta charset="utf-8">
+  <title>Entretencion.cl | Evento en Directo</title>
+  <meta content="Entretencion.cl | Evento en línea" property="og:title">
+  <meta content="Entretencion.cl | Evento en línea" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/entretedemo.webflow.css" rel="stylesheet" type="text/css">
+  <link type="text/css" href="/assets/siseusa.css" rel="stylesheet">
+  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="be0e17ec-6398-789c-b604-56c40a438e8f"] {width:800px;height:450px;}}</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Oswald:200,300,400,500,600,700"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon"><!--  These are the style sheets for the range slider www.flowbase.co  -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.2/css/ion.rangeSlider.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.2/css/ion.rangeSlider.skinFlat.min.css">
+  <!--  These are some custom styles. Find the purple #hex to change colour  -->
+  <!--  Validate.js para marcar números de los cartones  -->
+  <script src="assets/validate.js"></script>
+  <style>
+.irs {
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    min-width: 20px
+}
+.irs-with-grid {
+    height: 85px
+}
+.irs-line {
+    height: 12px;
+    top: 35px
+}
+.irs-line-left {
+    height: 12px;
+    background-position: 0 -30px
+}
+.irs-line-mid {
+    height: 12px;
+    background-position: 0 0
+}
+.irs-line-right {
+    height: 12px;
+    background-position: 100% -30px
+}
+.irs-bar {
+    height: 12px;
+    top: 35px;
+    background-position: 0 -60px;
+    background-color: #6c33da;
+    background-image: none;!important
+}
+.irs-bar-edge {
+    top: 35px;
+    height: 12px;
+    width: 15px;
+    background-color: #6c33da;
+    background-image: none;!important
+    -webkit-border-top-left-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px
+}
+.irs-shadow {
+    height: 3px;
+    top: 35px;
+    background: #000;
+    opacity: .25
+}
+.lt-ie9 .irs-shadow {
+    filter: alpha(opacity=25)
+}
+.irs-slider {
+    width: 25px;
+    height: 25px;
+    top: 29px;
+    background-position: 0 -120px;
+    background-image: none;
+    background-color: #ccc;
+    border-radius: 100%;
+    transition: background-color 200ms ease-in
+}
+.irs-slider.state_hover,
+.irs-slider:hover {
+    width: 25px;
+    height: 25px;
+    top: 29px;
+    background-position: 0 -120px;
+    background-image: none;
+    background-color: #6c33da;
+    border-radius: 100%
+}
+.irs-min,
+.irs-max {
+    color: #999;
+    font-size: 0.9em;
+    line-height: 1em;
+    text-shadow: none;
+    top: 0;
+    padding: 5px;
+    margin-bottom: 25px;
+    background: #e1e4e9;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+.irs-from,
+.irs-to,
+.irs-single {
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1em;
+    text-shadow: none;
+    padding: 5px;
+    margin-bottom: 25px;
+    background: #6c33da;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+.irs-from:after,
+.irs-to:after,
+.irs-single:after {
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -3px;
+    overflow: hidden;
+    border: 3px solid transparent;
+    border-top-color: #6c33da
+}
+.irs-grid-pol {
+    background: #e1e4e9
+}
+.irs-grid-text {
+    color: #999
+}
+/* Getting rid of that ugly textarea resize-corner */
+textarea {
+resize: none
+}
+/* textarea scrollbar fixings */
+textarea.area.field.w-input::-webkit-scrollbar {
+    width: 14px;
+    height: 18px;
+}
+textarea.area.field.w-input::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+    background-color: #6c33da;
+    -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+textarea.area.field.w-input::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+textarea.area.field.w-input::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+</style>
+</head>
+<body>
+  <div class="event-full">
+    <div class="help-block">
+      <div class="button-wrapper">
+        <a id="wsp" href="{{ wspurl }}" target="_blank" class="button-ayuda w-button">Ayuda vía Whatsapp</a>
+      </div>
+    </div>
+    <div class="slide-banner">
+      <a href="/" class="banner-logo w-inline-block">
+        <div class="avatar-circle"><img src="images/jokerlogo.png" width="53" alt="" class="image-4"></div>
+        <h4 class="banner-h4">Entretencion.cl</h4>
+      </a>
+      <div class="banner-content">
+        <div class="quote-wrap">
+          <p class="paragraph-welcome">Bienvenid@ {{ data['PEGAR RUT'] }}</p>
+          <!-- <h3 class="banner-h4-titulo">{{ data['NOMBRE COMPLETO'] }}</h3> 
+          <p class="paragraph-intro">{{ data['PEGAR RUT'] }}</p>
+          <div class="notice">
+            <div class="text-block-5"><span class="text-span">Premios de hoy:</span> <br></div>
+            <ul role="list" class="list">
+              <li>3 Gift Card de $200.000 para 3 ganadores distintos en categoría Bingo</li>
+              <li>3 Gift Card de $80.000 para 3 ganadores distintos en categoría Binguito</li>
+              <li>Sorteo de 2 Entradas Platinum para el concierto de Ricardo Arjona</li>
+            </ul>
+          </div> -->
+          <div class="div-chat">
+            <div class="html-embed w-embed w-iframe"><iframe src="{{ chatvimeo }}" width="100%" height="350px" frameborder="0"></iframe></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-event wf-section">
+      <div id="wrap-cartones" class="content-event">
+        <div data-w-id="260aa8f8-99b0-b24b-ec2e-4e38c07b53b9" class="video-content">
+          <div class="div-block"><img src="images/logo-cajalosandes.png" loading="lazy" width="100" alt="">
+            <div class="div-block-2">
+              <a id="link-zoom" href= "{{ zoomurl }}" class="link">Cambiar a Zoom</a><img src="images/zoom.png" loading="lazy" width="24" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="video-streaming" data-w-id="be0e17ec-6398-789c-b604-56c40a438e8f" class="video w-embed w-iframe">
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ vimeourl }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+        </div>
+
+        <div id="tab-cartonres" data-current="Tab 2" data-easing="ease" data-duration-in="300" data-duration-out="100" class="tabs w-tabs">
+          <div class="tabs-content checkbox-base w-tab-content">
+            <div data-w-tab="Tab 1" class="tab-pane-tab-1 w-tab-pane">
+              <div class="div-carton">
+
+                
+                <div><a id="download-carton1" href="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png" class="download-button w-button">Descargar Cartón Nº {{ data['CARTON 1'] }}</a></div> <!--  <img sizes="(max-width: 479px) 100vw, 96.5px" srcset="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png 500w, https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png 800w, https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png 1080w, https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png 1920w" src="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png" loading="lazy" id="carton1" alt="" class="image-carton">
+                -->
+                <!-- Div Carton 1 -->
+                         
+                          <div class="columnas col_carton">
+                              <img id="carton-virtual-1" src="https://cartones.entretencion.cl/{{ data['CARTON 1'] }}.png" alt="Cartón 1" class="img_carton"> 
+                              <div class="controles">
+                                  <div class="controles_fila">
+                                      <button id="boton1" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton2" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton3" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton4" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton5" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                                  <div class="controles_fila">
+                                      <button id="boton6" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton7" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton8" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton9" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton10" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                                  <div class="controles_fila">
+                                      <button id="boton11" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton12" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="botonxx" class="controles_nro notshow" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton13" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton14" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                                  <div class="controles_fila">
+                                      <button id="boton15" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton16" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton17" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton18" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton19" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                                  <div class="controles_fila">
+                                      <button id="boton20" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton21" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton22" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton23" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton24" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                              </div>    
+                          </div>
+                      
+                <!-- Div Carton 1 -->
+
+                
+              </div>
+            </div>
+            <div data-w-tab="Tab 2" class="tab-pane-tab-2 w-tab-pane w--tab-active">
+              <div class="div-carton">
+
+                
+                <div><a id="download-carton2" href="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png" class="download-button w-button">Descargar Cartón Nº {{ data['CARTON 2'] }}</a></div>  <!-- <img sizes="(max-width: 479px) 100vw, (max-width: 767px) 73vw, (max-width: 991px) 77vw, 48vw" srcset="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png 500w, https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png 800w, https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png 1080w, https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png 1920w" src="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png" loading="lazy" id="carton2" alt="" class="image-carton">
+                -->
+                <!-- Div Carton 2 -->
+                
+                         
+                          <div class="columnas col_carton">
+                              <img id="carton-virtual-2" src="https://cartones.entretencion.cl/{{ data['CARTON 2'] }}.png" alt="Cartón 2" class="img_carton"> 
+                              <div class="controles">
+                                  <div class="controles_fila">
+                                      <button id="boton-1" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-2" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-3" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-4" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-5" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                                  <div class="controles_fila">
+                                      <button id="boton-6" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-7" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-8" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-9" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-10" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                                  <div class="controles_fila">
+                                      <button id="boton-11" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-12" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-xx" class="controles_nro notshow" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-13" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-14" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                                  <div class="controles_fila">
+                                      <button id="boton-15" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-16" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-17" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-18" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-19" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                                  <div class="controles_fila">
+                                      <button id="boton-20" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-21" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-22" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-23" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                      <button id="boton-24" class="controles_nro" onClick="marcar_nro(this.id);"></button>
+                                  </div> 
+                              </div>    
+                          </div>
+                      
+                 
+                  
+              
+                <!-- Fin Div Carton 2 -->
+
+
+                
+              </div>
+            </div>
+            <div data-w-tab="Tab 3" class="tab-pane-tab-3 w-tab-pane">
+              <div class="div-chat">
+                <div class="html-embed w-embed w-iframe"><iframe src="{{ chatvimeo }}" width="100%" height="350px" frameborder="0"></iframe></div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-menu w-tab-menu">
+            <a data-w-tab="Tab 1" class="tab-link-tab-1 w-inline-block w-tab-link w--current"><img src="images/bingo24px.png" alt="" class="nav-icon">
+              <div>Carton {{ data['CARTON 1'] }}</div>
+            </a>
+            <a data-w-tab="Tab 2" class="tab-link-tab-2 w-inline-block w-tab-link"><img src="images/bingo24px.png" alt="" class="nav-icon">
+              <div>Carton {{ data['CARTON 2'] }}</div>
+            </a>
+            <a data-w-tab="Tab 3" class="tab-link-tab-3 w-inline-block w-tab-link"><img src="images/chat32px.png" alt="" class="nav-icon">
+              <div>Chat </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div>Las Cajas de Compensación son fiscalizadas por la Superintendencia de Seguridad Social (www.suseso.cl)</div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62852fa8c338fb5cb15af9bd" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>

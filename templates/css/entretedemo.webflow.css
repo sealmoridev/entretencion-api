@@ -1436,6 +1436,7 @@ a {
 .tabs-content {
   width: 100%;
   height: 100%;
+  /* height: 650px; */
 }
 
 .tabs {
@@ -1874,7 +1875,8 @@ a {
 
   .content-event {
     min-height: 80vh;
-    padding: 50px 5% 27px;
+    /* padding: 50px 5% 27px; */
+    padding: 0%;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
